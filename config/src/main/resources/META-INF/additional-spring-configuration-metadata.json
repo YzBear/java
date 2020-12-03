@@ -4,5 +4,10 @@
       "name": "mybear.title",
       "type": "java.lang.String",
       "description": "Description for mybear.title."
-  }
-] }
+    },
+    {
+      "name": "com.battle.type3",
+      "type": "java.lang.String",
+      "description": "Description for com.battle.type3."
+    }
+  ] }
