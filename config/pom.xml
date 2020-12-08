@@ -16,6 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<!-- The main class to start by executing java -jar -->
+		<start-class>com.example.config.ConfigApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -44,6 +46,7 @@
 	<build>
 		<plugins>
 			<plugin>
+
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
@@ -55,6 +58,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
+
 			<!--在这里修改版本-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

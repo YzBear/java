@@ -27,7 +27,7 @@ public class IndexController {
 
 	@GetMapping("/show")
 	public  String show() {
-		return "show";
+		return "chunchunwudi";
 	}
 
 	@GetMapping("/blogProperties")
