@@ -19,7 +19,6 @@ public class TestController {
 	public void methodTwo() throws InterruptedException {
 		Thread.sleep(2000);
 	}
-
 	@Log("执行方法三")
 	@GetMapping("/three")
 	public void methodThree(String name, String age) {
