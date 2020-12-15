@@ -23,7 +23,7 @@ public class UserController {
 	@ApiIgnore
 	@GetMapping("hello")
 	public @ResponseBody String hello() {
-		return "hello";
+		return "hello2";
 	}
 
 	@ApiOperation(value = "获取用户信息", notes = "根据用户id获取用户信息")
