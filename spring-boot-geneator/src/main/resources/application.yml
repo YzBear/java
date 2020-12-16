@@ -1,0 +1,35 @@
+server:
+  port: 80
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/kitty?serverTimezone=UTC&useUnicode=true&characterEndcoding=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 180000
+      maximum-pool-size: 10
+      auto-commit: true
+      max-lifetime: 180000
+      connection-timeout: 30000
+
+mybatis:
+  # type-aliases扫描路径
+  type-aliases-package: com.example.springbootgeneator.bean
+  # mapper xml实现扫描路径
+  mapper-locations: classpath:mapper/*.xml
+  property:
+    mysql: BEFORE
+#mappers 多个接口时逗号隔开
+mapper:
+  mappers: com.example.springbootgeneator.config.MyMapper
+  not-empty: false
+  identity: mysql
+#pagehelper
+pagehelper:
+  helperDialect: oracle
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql

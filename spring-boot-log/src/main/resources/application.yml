@@ -1,0 +1,47 @@
+server:
+  port: 80
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/orcl?serverTimezone=UTC&useUnicode=true&characterEndcoding=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 180000
+      maximum-pool-size: 10
+      auto-commit: true
+      max-lifetime: 180000
+      connection-timeout: 30000
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    #jedis　
+    #直连模式，在多个线程间共享一个 Jedis 实例时是线程不安全的，如果想要在多线程环境下使用 Jedis，需要使用连接池，
+    #
+    #　　　　　　每个线程都去拿自己的 Jedis 实例，当连接数量增多时，物理连接成本较高。
+    #Lettuce：
+      #
+      #　　　　　　连接是基于Netty的，连接实例可以在多个线程间共享，
+      #
+      #　　　　　　所以，一个多线程的应用可以使用同一个连接实例，而不用担心并发线程的数量。当然这个也是可伸缩的设计，一个连接实例不够的情况也可以按需增加连接实例。
+    #
+    #　　　　　　通过异步的方式可以让我们更好的利用系统资源，而不用浪费线程等待网络或磁盘I/O。
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 500
+        max-wait: -1
+        min-idle: 0
+    lettuce:
+      shutdown-timeout: 0
+    timeout: 0
+logging:
+  level:
+    com:
+      example:
+        springbootlog:
+          mapper: debug
+  config: "classpath:logback-spring.xml"
