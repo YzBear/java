@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyBatis-MultiDataSource/MyBatis-MultiDataSource.iml" filepath="$PROJECT_DIR$/MyBatis-MultiDataSource/MyBatis-MultiDataSource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/github.iml" filepath="$PROJECT_DIR$/.idea/github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-ehcache/spring-boot-ehcache.iml" filepath="$PROJECT_DIR$/spring-boot-ehcache/spring-boot-ehcache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-filter-interceptor/spring-boot-filter-interceptor.iml" filepath="$PROJECT_DIR$/spring-boot-filter-interceptor/spring-boot-filter-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-geneator/spring-boot-geneator.iml" filepath="$PROJECT_DIR$/spring-boot-geneator/spring-boot-geneator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-kafaka/spring-boot-kafaka.iml" filepath="$PROJECT_DIR$/spring-boot-kafaka/spring-boot-kafaka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-log/spring-boot-log.iml" filepath="$PROJECT_DIR$/spring-boot-log/spring-boot-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" filepath="$PROJECT_DIR$/spring-boot-mail/spring-boot-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-monogdb/spring-boot-monogdb.iml" filepath="$PROJECT_DIR$/spring-boot-monogdb/spring-boot-monogdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot/spring_boot.iml" filepath="$PROJECT_DIR$/spring_boot/spring_boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_aop/spring_boot_aop.iml" filepath="$PROJECT_DIR$/spring_boot_aop/spring_boot_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_redis/spring_boot_redis.iml" filepath="$PROJECT_DIR$/spring_boot_redis/spring_boot_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_thymeleaf/spring_boot_thymeleaf.iml" filepath="$PROJECT_DIR$/spring_boot_thymeleaf/spring_boot_thymeleaf.iml" />
+    </modules>
+  </component>
+</project>

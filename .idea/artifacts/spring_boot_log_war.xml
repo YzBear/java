@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-boot-log:war">
+    <output-path>$PROJECT_DIR$/spring-boot-log/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-boot-log</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mybear.war">
+      <element id="artifact" artifact-name="spring-boot-log:war exploded" />
+    </root>
+  </artifact>
+</component>

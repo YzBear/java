@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-log" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_boot/pom.xml" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-MultiDataSource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_boot_aop/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_boot_thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_boot_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-ehcache/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-log/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-filter-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-geneator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-kafaka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-monogdb/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://ehcache.org/ehcache.xsd" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/MyBatis-MultiDataSource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyBatis-MultiDataSource/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-ehcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-filter-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-geneator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-kafaka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-monogdb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot_aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot_redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot_thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
