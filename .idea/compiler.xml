@@ -21,6 +21,7 @@
         <module name="spring-boot-kafaka" />
         <module name="spring-boot-geneator" />
         <module name="config" />
+        <module name="spring-boot-websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="spring-boot-mail" target="1.8" />
       <module name="spring-boot-monogdb" target="1.8" />
       <module name="spring-boot-swagger" target="1.8" />
+      <module name="spring-boot-websocket" target="1.8" />
       <module name="spring_boot" target="1.8" />
       <module name="spring_boot_aop" target="1.8" />
       <module name="spring_boot_redis" target="1.8" />
@@ -58,6 +60,7 @@
       <module name="spring-boot-mail" options="-parameters" />
       <module name="spring-boot-monogdb" options="-parameters" />
       <module name="spring-boot-swagger" options="-parameters" />
+      <module name="spring-boot-websocket" options="-parameters" />
       <module name="spring_boot_aop" options="-parameters" />
       <module name="spring_boot_redis" options="-parameters" />
       <module name="spring_boot_thymeleaf" options="-parameters" />

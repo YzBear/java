@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/spring-boot-geneator/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-kafaka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-monogdb/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/pom.xml" />
       </list>
     </option>
   </component>
