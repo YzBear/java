@@ -1,13 +1,19 @@
 package com.example.springbootswagger.domain;
 
+import com.alibaba.excel.annotation.ExcelIgnore;
+import com.alibaba.excel.annotation.ExcelProperty;
+
 import java.io.Serializable;
 
 public class User implements Serializable {
 
 	private static final long serialVersionUID = -2731598327208972274L;
 
+	@ExcelIgnore
 	private Long id;
+	@ExcelProperty("名字")
 	private String name;
+	@ExcelProperty("年龄")
 	private Integer age;
 
 	public Long getId() {
@@ -34,4 +40,21 @@ public class User implements Serializable {
 		this.age = age;
 	}
 
+	public User() {
+	}
+
+	public User(Long id, String name, Integer age) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "User{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", age=" + age +
+				'}';
+	}
 }
